@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cavalo.ico" type="image/x-icon">
+    <title>Jogos</title>
+    <style>
+        .container {
+        display: flex;
+        flex-wrap: wrap; /* Permite que as imagens "quebrem" para a linha de baixo */
+        justify-content: space-around; /* Espaço ao redor das imagens */
+    }
+
+    .container a {
+        width: 45%; /* Ajusta a largura do link para ser igual à imagem */
+        margin-bottom: 10px; /* Espaço entre as linhas */
+        display: inline-block; /* Permite que o link se comporte como um bloco sem quebrar o layout */
+    }
+
+    .container img {
+        width: 100%; /* Ajusta a largura de cada imagem para ocupar 100% do link */
+        height: 200px; /* Define uma altura fixa para todas as imagens */
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço definido */
+    }
+
+    h1 {
+        text-align: center; /* Centraliza o texto */
+    }
+    </style>
+</head>
+<body>
+    <h1>4 Jogoas para se jogar em 2024</h1>
+
+    <div class="container">
+
+        <a href="pag03.html">
+            <img src="imagens/league-of-legends.jpg" alt="imagem do jogo league of legends">
+        </a>
+        
+        <a href="pag02.html">
+            <img src="imagens/god-of-war-.jpg" alt="imagem do jogo god of ward">
+        </a>
+        
+        <a href="pag04.html">
+            <img src="imagens/gta-5.jpg" alt="imagem do jogo gta-5">
+        </a>
+        
+        <a href="pag05.html">
+            <img src="imagens/rust-.jpg" alt="imagem do jogo rust">
+        </a>
+        
+        <h2>Clique em alguma imagem para ver os videos</h2>
+    </div>
+</body>
+</html>
